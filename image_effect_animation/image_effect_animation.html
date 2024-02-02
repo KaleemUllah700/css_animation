@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>animation</title>
+<style>
+div{
+width:500px;
+height:400px;
+border:10px solid red;
+margin:0 auto;
+background-image:url("a.jpg");
+background-size:cover;
+animation:wap 10s infinite;
+}
+
+
+@keyframes wap{
+0%{background-image:url("a.jpg");}
+25%{background-image:url("b.jpg");}
+50%{background-image:url("c.jpg");}
+75%{background-image:url("d.jpg");}
+100%{background-image:url("e.jpg");}
+}
+
+</style>
+</head>
+<body>
+<div></div>
+</body>
+</html>
